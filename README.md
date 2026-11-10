@@ -6,11 +6,11 @@ API REST simples para gerenciamento de livros, construída com **Node.js**, **Ex
 
 A API está publicada no Render:
 
-🔗 **https://api-livros-naorelacionavel.onrender.com/livros**
+🔗 **https://api-biblioteca-bancodedados-atividade11.onrender.com/livros**
 
 > Como o serviço está no plano gratuito do Render, a primeira requisição pode demorar alguns segundos enquanto a instância "acorda".
 
-Para usar a versão em produção nos exemplos abaixo, troque `http://localhost:3000` por `https://api-livros-naorelacionavel.onrender.com`.
+Para usar a versão em produção nos exemplos abaixo, troque `http://localhost:3000` por `https://api-biblioteca-bancodedados-atividade11.onrender.com`.
 
 ## Tecnologias
 
@@ -21,7 +21,7 @@ Para usar a versão em produção nos exemplos abaixo, troque `http://localhost:
 ## Estrutura do projeto
 
 ```
-api-livros-naorelacional/
+api-biblioteca-bancoDeDados-atividade11/
 ├── index.js          # Servidor Express e rotas da API
 ├── package.json
 ├── .env              # Variáveis de ambiente (não versionado)
@@ -36,8 +36,8 @@ api-livros-naorelacional/
 ## Instalação
 
 ```bash
-git clone <url-do-repositorio>
-cd api-livros-naorelacional
+git clone https://github.com/viniciuscelis/api-biblioteca-bancoDeDados-atividade11.git
+cd api-biblioteca-bancoDeDados-atividade11
 npm install
 ```
 
